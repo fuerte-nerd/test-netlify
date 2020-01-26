@@ -1,6 +1,6 @@
 backend:
   name: git-gateway
-  repo: fuerte-nerd/test-netlify
+  branch: master
 media_folder: static/assets
 public_folder: assets
 collections:
@@ -8,6 +8,8 @@ collections:
     label: Blog
     folder: blog
     create: true
+    editor:
+      preview: false
     fields:
       - { name: path, label: Path }
       - { name: image, label: Image, widget: image }
