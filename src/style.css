@@ -1,0 +1,9 @@
+.blog-post{
+    width: 100%;
+}
+
+.blog-post img{
+    display: block;
+    max-width: 75%;
+    margin: 0 auto;
+}
